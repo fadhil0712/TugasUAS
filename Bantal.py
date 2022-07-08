@@ -1,7 +1,7 @@
 class BentukBantal():
-    love = 30
-    kotak = 20
-    bulat = 60
+    love = 40
+    kotak = 30
+    bulat = 70
 
     def turun(self, x):
         if x <= self.kotak:
@@ -30,9 +30,9 @@ class BentukBantal():
             return up(x, self.bulat, self.love)
 
 class isiBantal():
-    busa = 40
-    silikon = 20
-    kapuk = 30
+    busa = 50
+    silikon = 30
+    kapuk = 40
 
     def sedikit(self, x):
         if x >= self.busa:
@@ -61,9 +61,9 @@ class isiBantal():
             return up(x, self.silikon, self.kapuk)
 
 class WarnaBantal():
-    merah = 50
-    kuning = 40
-    hijau = 80
+    merah = 60
+    kuning = 50
+    hijau = 90
 
     def sedikit(self, x):
         if x >= self.kuning:
@@ -92,9 +92,9 @@ class WarnaBantal():
             return up(x, self.merah, self.hijau)
 
 class jenisBantal():
-    bantalSofa = 30
-    bantalLeher = 50
-    bantalGuling = 70
+    bantalSofa = 40
+    bantalLeher = 60
+    bantalGuling = 80
    
     def sedikit(self, x):
         if x >= self.bantalLeher:
